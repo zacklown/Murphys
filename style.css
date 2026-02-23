@@ -1,0 +1,51 @@
+/* Top menu */
+#topMenu {
+  background-color: #004030;
+}
+
+.top-logo {
+  height: 34px;
+  width: auto;
+}
+
+.top-link {
+  color: #ffffff;
+  font-weight: 600;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.top-link:hover,
+.top-link:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Hero background image with centered text overlay */
+.murphys-hero {
+  background-image: url("http://courses.ics.hawaii.edu/ics314f25/morea/ui-frameworks/murphys-new-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  color: #ffffff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+}
+
+/* 3-column footer */
+.murphys-footer {
+  background-color: #004030;
+  color: #ffffff;
+}
+
+.footer-title {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
