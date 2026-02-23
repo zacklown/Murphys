@@ -14,31 +14,38 @@
 </head>
 
 <body>
-  <nav id="topMenu" class="container-fluid">
-    <div class="container">
-      <div class="d-flex align-items-center justify-content-between py-2">
 
-        <ul class="nav justify-content-start align-items-center">
-          <li class="nav-item">
-            <a class="navbar-brand" href="#">
-              <img
-                src="https://courses.ics.hawaii.edu/ics314s26/morea/ui-frameworks/murphyslogowhite.png"
-                alt="Murphy's logo"
-                class="top-logo"
-              />
-            </a>
-          </li>
-        
-        <ul class="nav ms-auto">
-          <li class="nav-item"><a class="nav-link top-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link top-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link top-link" href="#">Menu</a></li>
-          <li class="nav-item"><a class="nav-link top-link" href="#">Contact</a></li>
-        </ul>
+<nav id="topMenu" class="navbar navbar-dark navbar-expand-lg">
+  		<div class="container">
 
-      </div>
+    <!-- Logo (left) -->
+    <a class="navbar-brand" href="#">
+      <img
+        src="https://courses.ics.hawaii.edu/ics314s26/morea/ui-frameworks/murphyslogowhite.png"
+        alt="Murphy's logo"
+        class="top-logo"
+      />
+    </a>
+
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible nav -->
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link top-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link top-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link top-link" href="#">Menu</a></li>
+        <li class="nav-item"><a class="nav-link top-link" href="#">Contact</a></li>
+      </ul>
     </div>
-  </nav>
+
+  </div>
+</nav>
 
   <section class="murphys-hero">
     <div class="container">
